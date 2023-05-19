@@ -5,6 +5,7 @@ const timeLeft = document.querySelector("#time-left");
 
 let score = 0;
 let moleSquareId;
+let timerId;
 
 function loadMoleOnRandomSquare() {
   squares.forEach((square) => {
@@ -24,4 +25,8 @@ function loadMoleOnRandomSquare() {
       }
     });
   });
+}
+
+function moveMole() {
+  timerId = setInterval();
 }

@@ -28,5 +28,5 @@ function loadMoleOnRandomSquare() {
 }
 
 function moveMole() {
-  timerId = setInterval();
+  timerId = setInterval(randomSquare, 500);
 }

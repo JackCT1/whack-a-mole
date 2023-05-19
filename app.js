@@ -29,7 +29,7 @@ squares.forEach((square) => {
 });
 
 function moveMole() {
-  timerId = setInterval(loadMoleOnRandomSquare(), 500);
+  timerId = setInterval(loadMoleOnRandomSquare, 500);
 }
 
 moveMole();
@@ -45,4 +45,4 @@ function timerCountDown() {
   }
 }
 
-let countDownTimerId = setInterval(timerCountDown(), 1000);
+let countDownTimerId = setInterval(timerCountDown, 1000);
